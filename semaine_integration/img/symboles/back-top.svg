@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4904.36 2309 97.62 97.62">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="back_to_top" data-name="back to top" transform="translate(4137 2309)">
+    <g id="Rectangle_16" data-name="Rectangle 16" class="cls-1" transform="translate(767.36)">
+      <rect class="cls-2" width="97.62" height="97.62"/>
+      <rect class="cls-3" x="0.5" y="0.5" width="96.62" height="96.62"/>
+    </g>
+    <line id="Ligne_96" data-name="Ligne 96" class="cls-1" y1="33.074" x2="25.986" transform="translate(791.365 33.34)"/>
+    <line id="Ligne_97" data-name="Ligne 97" class="cls-1" x1="23.624" y1="33.074" transform="translate(817.351 33.34)"/>
+  </g>
+</svg>

@@ -1,0 +1,522 @@
+body{
+    background-color: #25374E;
+    color:white;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    padding-top:55px;
+    max-width: 98%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 670px;
+}
+
+
+h1{
+    font-weight:normal;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-weight:normal;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+
+.logo{
+    width:75%;
+}
+
+nav{
+    -o-display:flex;  
+    -moz-display:flex;
+    -ms-display:flex;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-around;
+    -ms-flex-align:center;
+    align-items:center;
+    margin-top: -35px;
+
+}
+nav a:first-child{
+            flex-grow:0.2;
+}
+
+nav a{
+    font-size:1.3em;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+nav li{
+    margin-bottom: 10px;
+    margin-right:50px;
+    list-style-type: none;
+    display: inline-block;  
+}
+
+.vert a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #fff;
+    -webkit-transition: width .3s;
+    -o-transition: width .3s;
+    transition: width .3s;
+}
+
+.vert a:hover::after {
+    width: 100%;
+
+}
+
+nav img{
+
+    width:3%;
+}
+
+.conn a{
+    cursor: pointer;
+    display: block;
+}
+
+.conn a:first-of-type:hover{
+color: #DDA01E;
+}
+
+.conn a:nth-last-of-type(1){
+    background-color: #DDA01E;
+    padding:5px;
+}
+.conn a:nth-last-of-type(1):hover{
+    -o-transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+    background-color: rgb(136, 97, 20)
+}
+
+/**HERO **/
+
+#filter{
+    height: 116.5%;
+    width:100%;
+    background-color:rgba(5, 0, 0, 0.555);
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+video{
+    width:100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#fleche img{
+    cursor: pointer;
+    margin-top:-10%;
+    margin-bottom:13%;
+    margin-left:45%;
+    width:10%;
+}
+
+/**fin du hero **/
+
+
+.lost{
+    position: fixed;
+    top: 35%;
+    left:83%; 
+    z-index:10;
+}
+.lost ul{
+    cursor: pointer;
+    list-style-type: none;
+
+}
+
+.lost p{
+    margin-top:-2px;
+}
+
+.lost i{
+
+    margin-left:10px;
+}
+
+.lost a{
+    -o-display:flex;
+    -moz-display:flex;
+    -ms-display:flex;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: flex-end;
+    text-decoration: none;
+    color:#DDA01E;
+}
+
+
+.lost p{
+    font-size: 1.5em;
+    font-family: 'Rajdhani', sans-serif;
+    opacity: 0;
+    -o-transition: opacity .4s;
+    -webkit-transition: opacity 0.4s; /* For Safari 3.1 to 6.0 */
+    -ms-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+
+
+.lost i, p:hover{
+    opacity: 1;
+}
+
+/** Lightbox**/
+
+#light{
+    z-index:500;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(5, 0, 0, 0.555);
+    visibility: hidden;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+#light article{
+    margin-left:30%;
+    margin-top:15%;
+    background-color:#25374E;
+    width:600px;
+
+}
+
+#light label{
+    margin-left:12%;
+}
+
+#light input{
+    border:1px solid #ccc;
+    font-size:13.5px;
+    width:75%;
+    min-height:30px;
+    display:block;
+    margin-bottom:15px;
+    margin-top:5px;
+    outline: none;
+    margin-left:12%;
+    border-color: #DDA01E;
+}
+
+input[type=submit]:focus{
+    background-color: #DDA01E;
+}
+
+
+/**fin Lightbox**/
+
+
+
+
+.service div{
+    -o-display:flex;
+    -moz-display:flex;
+    -ms-display:flex;
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.service img{
+    width:150px;
+}
+
+.service article:hover{
+    -o-transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+    background-color: rgba(5, 0, 0, 0.555);
+}
+
+.service a{
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    color:white;
+    padding:15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+
+    background-color: #DDA01E;
+    margin-left:45.5%;
+}
+
+.service a:hover{
+    -o-transition: background-color 1s;
+   -webkit-transition: background-color 1s;
+   transition: background-color 1s;
+   background-color: rgb(136, 97, 20)
+}
+
+.service div article{
+    padding :5px; 
+    width:33%;
+    text-align: center;
+    margin: 25px;
+}
+
+
+
+.new{
+    border-top: #DDA01E solid 1px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.new article img{
+    width: 250px;
+    height: 180px;
+}
+.new article:hover{
+    -o-transition: color 1s;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    color:#DDA01E
+}
+.new div{
+    -moz-display:flex;
+    -ms-display:flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.new div{
+    text-align: center;
+
+    justify-content: space-around;
+}
+.new h4{
+    font-weight:normal;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5em;
+}
+
+.new h3{
+    font-weight:normal;
+    font-family: 'Rajdhani', sans-serif;
+}
+.new a {
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    color:white;
+    padding:15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+
+    background-color: #DDA01E;
+    margin-left:45.5%;
+}
+
+
+.new a:hover{
+    -o-transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+    background-color: rgb(136, 97, 20)
+}
+/** SLIDER **/
+
+#tell{
+    -moz-display:flex;
+    -ms-display:flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    justify-content: space-around;
+
+}
+
+#firstimg{
+    background-size: cover;
+    width:48%;
+    height: 500px;
+    -o-transition: background-color 1s;
+    -webkit-transition: background-image 1s; /* For Safari 3.1 to 6.0 */
+    -o-transition: background-image 1s;
+    transition: background-image 1s;
+}
+
+#secondimg{
+    background-size: cover;
+    width:48%;
+    height: 500px;
+    -o-transition: background-color 1s;
+    -webkit-transition: background-image 1s; /* For Safari 3.1 to 6.0 */
+    -o-transition: background-image 1s;
+    transition: background-image 1s;
+}
+
+.fond{
+    padding-top:15px;
+    position: relative;
+    z-index: 1;
+    left:354px;
+    width:50%;
+    height:485px;
+    background-color: rgba(5, 0, 0, 0.555);
+}
+
+.fond p{
+    padding:15px;
+}
+
+.creation{
+    border-top: #DDA01E 1px solid;
+    margin-bottom: 55px;
+
+}
+
+
+
+/**  fin du slide  **/
+
+.backtop{
+    margin-top:55px;
+    -o-display:flex;
+    -moz-display:flex;
+    -ms-display:flex;
+    display:-webkit-flex;
+    display:flex;
+    margin-left:15px;
+    margin-right:15px;
+
+}
+
+
+hr{
+
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+
+    padding: 0; 
+    width:100%;
+ 
+}
+#top img{
+    margin-top:-30px;
+    width:100%;
+    cursor: pointer;
+}
+
+
+
+.rsxsoc{
+    border-top:#DDA01E solid 1px;
+    margin-bottom: 55px;
+}
+
+.container{
+    -o-display:flex;
+    -moz-display:flex;
+    -ms-display:flex;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container div{
+    width:25%;
+}
+
+footer{
+
+    margin-top: 25px;
+    margin-bottom: 95px;
+}
+
+
+.links{
+    margin-left:-50px;
+    -o-display:flex;
+    -moz-display:flex;
+    -ms-display:flex;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.links{
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+.links article a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.links img{
+    width:170px;
+}
+
+
+
+/**animation speciale **/
+
+.come-in {
+    opacity:0;
+    transform: translateY(-150px);
+    animation: come-in 1.5s ease forwards;
+  }
+  .come-in:nth-child(odd) {
+    animation-duration: 1.5s; /* So they look staggered */
+  }
+  
+  @keyframes come-in {
+    to { transform: translateY(0); opacity:1; }
+  }
+
+/** ***/
+
+.come-inD {
+    opacity:0;
+    transform: translateY(150px);
+    animation: come-in 1.5s ease forwards;
+  }
+  .come-inD:nth-child(odd) {
+    animation-duration: 0.6s; /* So they look staggered */
+  }
+  
+  @keyframes come-inD {
+    to { transform: translateY(0); opacity:1; }
+  }
+

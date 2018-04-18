@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st2{display:inline;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st5{fill:none;}
+	.st6{font-family:'JuliusSansOne-Regular';}
+	.st7{font-size:141.4365px;}
+</style>
+<g id="Calque_2" class="st0">
+	<rect x="-68.3" y="-74.2" class="st1" width="1455.1" height="1182.1"/>
+</g>
+<g id="Calque_1">
+	<g id="Calque_2_1_" class="st0">
+		<rect x="439" y="312" class="st2" width="358" height="175"/>
+	</g>
+	<g id="Calque_1_1_">
+		<path class="st3" d="M328.8,446.6l-120.2,85.7V378.1c-1.8,0-3.5,0-5.7,0v158.2l5.7,3.1L332.4,451
+			C331,449.2,330.2,447.9,328.8,446.6z"/>
+		<line class="st4" x1="205.1" y1="531.4" x2="0" y2="733.4"/>
+		<line class="st4" x1="204.2" y1="535" x2="42.9" y2="782.5"/>
+		<line class="st4" x1="206.9" y1="536.8" x2="91.9" y2="802.8"/>
+		<line class="st4" x1="208.2" y1="538.1" x2="158.7" y2="813"/>
+		<line class="st4" x1="348.3" y1="268" x2="157.3" y2="296.3"/>
+		<line class="st4" x1="347" y1="267.1" x2="424.8" y2="441.3"/>
+		<line class="st4" x1="159.1" y1="295.4" x2="109.6" y2="343.6"/>
+		<line class="st4" x1="424.3" y1="439.5" x2="419.9" y2="510.7"/>
+		<path class="st4" d="M109.6,343.6c17.2-4,34.5-8,51.7-11.9c7.1,17.2,13.7,34,20.8,51.3c18.6-3.1,37.6-6.6,56.1-9.7
+			c8,17.7,16.4,35.4,24.3,53c18.6-3.5,36.7-7.1,55.2-10.2c8,17.7,15.5,34.9,23.4,52.6c18.6-3.5,37.1-6.6,55.2-10.2
+			c8,17.7,15.5,34.9,23.4,52.6"/>
+		<rect x="294.8" y="568.1" class="st5" width="985.2" height="124.6"/>
+		<text transform="matrix(1 0 0 1 294.9956 660.8157)" class="st3 st6 st7">Jellyfish</text>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1485.366 84.494 81.91 68.779">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0.5px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="sac_a_me--meduse" transform="translate(1485.978 84.68)">
+    <path id="Tracé_3" data-name="Tracé 3" class="cls-1" d="M71.268,40.4,53.074,54.677,42,46.833V64.4l11.074-8.629L71.426,68.955,89.619,55.148ZM42.949,62.836V48.4l9.492,6.9Zm28.477,5.021L53.865,55.305l17.4-13.964L88.2,54.991Z" transform="translate(-23.016 -9.805)"/>
+    <path id="Tracé_4" data-name="Tracé 4" class="cls-2" d="M30,81.2h80.683c-3.164-15.533-6.486-31.065-9.65-46.6H39.492Z" transform="translate(-30 -13.105)"/>
+    <line id="Ligne_9" data-name="Ligne 9" class="cls-2" y1="25.731" x2="5.221" transform="translate(19.617 0.157)"/>
+    <line id="Ligne_10" data-name="Ligne 10" class="cls-2" x1="5.221" y1="25.888" transform="translate(55.846)"/>
+    <line id="Ligne_11" data-name="Ligne 11" class="cls-2" y1="0.157" x2="31.957" transform="translate(24.363 0.314)"/>
+  </g>
+</svg>
